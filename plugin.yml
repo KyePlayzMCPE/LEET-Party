@@ -2,4 +2,4 @@ name: LeetParty
 version: 1.0.0
 author: KyePlayzMCPE
 api: 2.0.0
-main: KyePlayzMCPE\leetparty
+main: KyePlayzMCPE\leetparty\main
