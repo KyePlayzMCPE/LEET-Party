@@ -4,5 +4,5 @@ author: KyePlayzMCPE
 api: 2.0.0
 main: KyePlayzMCPE\leetparty\main
 commands:
-party create:
-description: Create a party
+pl:
+description: "usage: <create|del|officer|warp>"
