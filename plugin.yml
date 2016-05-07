@@ -1,11 +1,10 @@
-name: LeetParty
+name:LeetParty
 version: 1.0.0
-author: KyePlayzMCPE
-api: 2.0.0
-main: KyePlayzMCPE\leetparty\main
+author:KyePlayzMCPE
+api:2.0.0
+main:KyePlayzMCPE\leetparty\main
 commands:
-pl:
-description: "Main LP Command"
-usage: "usage; <create|delete|teleport|add|remove>
-
+lp:
+description:"Main Command for LP"
+usage: "usage; <create|delete|teleport|add|remove>"
 
