@@ -5,4 +5,7 @@ api: 2.0.0
 main: KyePlayzMCPE\leetparty\main
 commands:
 pl:
-description: "usage: <create|del|officer|warp>"
+description: "Main LP Command"
+usage: "usage; <create|delete|teleport|add|remove>
+
+
