@@ -7,4 +7,18 @@ commands:
 lp:
 description: "Main Command for LP"
 usage: "usage; <create|delete|teleport|add|remove>"
-
+lp delete:
+description: "Delete your party"
+usage: "usage; /lp delete <name>"
+lp create:
+description: "Create a party"
+usage: "usage; /lp create <name>"
+lp teleport:
+description: "Teleports a party to you"
+usage: "usage; /lp teleport"
+lp add:
+description: "Add a player to your party"
+usage: "usage; /lp add <name>"
+lp remove:
+description: "Remove a player from your party"
+usage: "usage; /lp remove <name>"
