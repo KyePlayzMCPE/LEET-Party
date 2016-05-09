@@ -10,4 +10,5 @@ class Main extends PluginBase implements Listener {
   
   // public $property;
   
+  // functions...
 }
