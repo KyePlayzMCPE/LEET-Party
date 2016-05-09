@@ -1,14 +1,36 @@
 name: LeetParty
 version: 1.0.0
-author: KyePlayzMCPE
+author: Kyle_
 api: [2.0.0]
 main: KyePlayzMCPE\leetparty\main
 commands:
   lp:
     description: "Main Command for LP"
-    usage: "/lp <create|delete|teleport|add|remove>"
-    permission: lp.cmd
+    usage: "usage; create|delete|teleport|add|remove>"
+    permission: lp.command
+
+  lp create:
+    description: "Create a party"
+    usage: "usage; /lp create <PartyName>
+    permission: lp.command.create
+
+  lp delete:
+    description: "Delete a party"  
+    usage: "usage; /lp delete"
+    permission: lp.command.delete
+
+  lp teleport:
+    description: "Teleport the party to you"
+    usage: "usage; /lp teleport"
+    permission: lp.command.teleport
+
+  lp add:
+    description: "Add a player to the party"
+    usage: "usage; /lp add <PlayerName>
+    permission: lp.command.remove
+
 permissions:
-  lp.cmd:
-    default:
-    description: 
+  lp.command:
+    default: true
+    description: "Main Command for LP (Permission)"
+  lp.create: 
