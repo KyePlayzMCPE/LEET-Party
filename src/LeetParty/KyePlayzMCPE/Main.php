@@ -7,5 +7,7 @@ use pocketmine\event\Listener;
 // use ....
 
 class Main extends PluginBase implements Listener {
-
+  
+  // public $property;
+  
 }
