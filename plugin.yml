@@ -27,10 +27,32 @@ commands:
   lp add:
     description: "Add a player to the party"
     usage: "usage; /lp add <PlayerName>
+    permission: lp.command.add
+
+  lp remove:
+    description: "Remove a player from the party"
+    usage: "usage; /lp remove <PlayerName>"
     permission: lp.command.remove
+
+
+
 
 permissions:
   lp.command:
     default: true
     description: "Main Command for LP (Permission)"
-  lp.create: 
+  lp.command.create:
+    default: true
+    description: "Create a party (Permission)"
+  lp.command.delete:
+    default: true
+    description: "Delete a party (Permission)"  
+  lp.command.teleport:
+    default: true
+    description: "Teleport the party to you (Permission)"
+  lp.command.add
+    default: true
+    description: "Add a player to the party (Permission)"
+  lp.command.remove
+    default: true
+    description: "Remove a player from the party (Permission)"
