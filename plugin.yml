@@ -11,4 +11,4 @@ commands:
 permissions:
   lp.cmd:
     default:
-    description:
+    description: 
