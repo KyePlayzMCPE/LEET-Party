@@ -1,58 +1,31 @@
 name: LeetParty
 version: 1.0.0
-author: KyePlayzMCPE
-api: [2.0.0]
-main: KyePlayzMCPE\leetparty\main
+author: "KyePlayzMCPE"
+api: [2.0.0, 1.13.1]
+main: LeetParty\KyePlayzMCPE\Main
+description: ""
 commands:
   lp:
     description: "Main Command for LP"
-    usage: "usage; create|delete|teleport|add|remove>"
+    usage: "/lp <create|delete|teleport|add|remove>"
     permission: lp.command
-
-  lp create:
-    description: "Create a party"
-    usage: "usage; /lp create <PartyName>
-    permission: lp.command.create
-
-  lp delete:
-    description: "Delete a party"  
-    usage: "usage; /lp delete"
-    permission: lp.command.delete
-
-  lp teleport:
-    description: "Teleport the party to you"
-    usage: "usage; /lp teleport"
-    permission: lp.command.teleport
-
-  lp add:
-    description: "Add a player to the party"
-    usage: "usage; /lp add <PlayerName>
-    permission: lp.command.add
-
-  lp remove:
-    description: "Remove a player from the party"
-    usage: "usage; /lp remove <PlayerName>"
-    permission: lp.command.remove
-
-
-
-
 permissions:
   lp.command:
     default: true
     description: "Main Command for LP (Permission)"
-  lp.command.create:
-    default: true
-    description: "Create a party (Permission)"
-  lp.command.delete:
-    default: true
-    description: "Delete a party (Permission)"  
-  lp.command.teleport:
-    default: true
-    description: "Teleport the party to you (Permission)"
-  lp.command.add
-    default: true
-    description: "Add a player to the party (Permission)"
-  lp.command.remove
-    default: true
-    description: "Remove a player from the party (Permission)"
+    children:
+      lp.command.create:
+        default: true
+        description: "Create a party (Permission)"
+      lp.command.delete:
+        default: true
+        description: "Delete a party (Permission)"  
+      lp.command.teleport:
+        default: true
+        description: "Teleport the party to you (Permission)"
+      lp.command.add
+        default: true
+        description: "Add a player to the party (Permission)"
+      lp.command.remove
+        default: true
+        description: "Remove a player from the party (Permission)"
