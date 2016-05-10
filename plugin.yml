@@ -5,7 +5,7 @@ api: [2.0.0, 1.13.1]
 main: LeetParty\KyePlayzMCPE\Main
 description: ""
 commands:
-  lp:
+ lp:
     description: "Main Command for LP"
     usage: "/lp <create|delete|teleport|add|remove>"
     permission: lp.command
