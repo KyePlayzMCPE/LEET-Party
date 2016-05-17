@@ -23,9 +23,9 @@ permissions:
       lp.command.teleport:
         default: true
         description: "Teleport the party to you (Permission)"
-      lp.command.add
+      lp.command.add:
         default: true
         description: "Add a player to the party (Permission)"
-      lp.command.remove
+      lp.command.remove:
         default: true
         description: "Remove a player from the party (Permission)"
